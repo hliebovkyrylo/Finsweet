@@ -1,0 +1,68 @@
+@import url(../css/style.css);
+
+/* Three section */
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.three__item {
+    max-width: 373px;
+}
+
+.three_logo {
+    background: linear-gradient(180deg, rgba(35, 46, 209, 0.03) 0%, rgba(35, 46, 209, 0.15) 100%);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.three__title {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 27px 0;
+}
+
+.three__text {
+    color: #5B5B5B;
+    font-size: 15px;
+}
+
+/* happy */
+
+.happy {
+    position: relative;
+    margin-bottom: 204px;
+}
+
+.happy__img {
+    left: 0;
+    top: 0;
+}
+
+.happy__red {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    background-color: #F24C27;
+    color: #fff;
+    border-radius: 80px 0 0 0;
+
+    padding: 81px 121px 72px 65px;
+    max-width: 470px;
+    margin-bottom: -76px;
+}
+
+.happy__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.happy__text {
+    font-size: 15px;
+    padding-top: 16px;
+}

@@ -1,0 +1,137 @@
+@import url(../css/style.css);
+
+/* intro */
+
+.intro {
+    height: 903px;
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 481px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.intro__text {
+    width: 100%;
+    max-width: 481px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* pricing */
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    margin: 170px 0 -550px 0;
+}
+
+.pricing__item {
+    max-width: 447px;
+    padding: 74px 0 0 56px;
+    background: linear-gradient(180deg, #FFFFFF 52.08%, #ECEDFF 100%);
+}
+
+.pricing__item:hover {
+    background: linear-gradient(180deg, #FFFFFF 52.6%, #FFE8E2 100%);
+}
+
+.pricing__item:hover
+.fa-check--blue {
+    color: #F24C27;
+}
+
+.pricing__item:hover
+.pricing__btn {
+    color: #fff;
+    border: #F24C27;
+    background-color: #F24C27;
+}
+
+.pricing__title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pricing__num {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.pricing__check {
+    padding-top: 24px;
+}
+
+.num {
+    font-size: 70px;
+}
+
+.pricing__text {
+    max-width: 270px;
+    font-size: 15px;
+}
+
+.pricing__d {
+    color: #5A5A5A;
+}
+
+.pricing__feature {
+    padding-top: 32px;
+}
+
+.pricing__feature--first {
+    margin-bottom: 176px;
+}
+
+.pricing__feature--second {
+    margin-bottom: 135px;
+}
+
+.pricing__feature--third {
+    margin-bottom: 90px;
+}
+
+.fa-check--blue {
+    color: #232ED1;
+    margin-right: 5px;
+
+    transition: color .1s linear;
+}
+
+.pricing__btn:hover {
+    background-color: #232ED1;
+    color: #fff;
+}
+
+/* pricing__btn */
+
+.pricing__btn {
+    margin-right: 56px;
+    font-size: 20px;
+    font-weight: 600;
+
+    border: 2px solid #232ED1;
+    border-radius: 10px;
+    padding: 18px 70px;
+    text-decoration: none;
+
+    transition: background-color .1s linear ,border .1s linear,color .1s linear;
+}
+
+/* faq */
+
+.faq {
+    margin-top: 450px;
+}

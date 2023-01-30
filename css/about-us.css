@@ -1,0 +1,11 @@
+@import url(../css/style.css);
+
+/* intro */
+
+.intro {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+}
+
+.intro__title {
+    margin: 35px 0 20px 0;
+}
