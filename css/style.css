@@ -212,6 +212,14 @@ body {
     margin-bottom: 32px;
 }
 
+.blue__text {
+    color: #232ED1;
+    font-weight: 500;
+    font-size: 14px;
+
+    margin: 25px 0 8px 0;
+}
+
 /* Img */
 
 .img__section {
