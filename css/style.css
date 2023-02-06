@@ -396,6 +396,7 @@ body {
     font-size: 20px;
     color: #000;
     cursor: pointer;
+    user-select: none;
 }
 
 .faq__text {
