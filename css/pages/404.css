@@ -1,0 +1,23 @@
+@import url(../style.css);
+
+/* intro */
+
+.intro {
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #F4F5FC 0%, #E6E7FF 100%);
+}
+
+/* icon */
+
+.logo__svg {
+    width: 97px;
+    height: 54px;
+}
+
+/* intro */
+
+.page__text {
+    max-width: 320px;
+    margin: 0 auto;
+}

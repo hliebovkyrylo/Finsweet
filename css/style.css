@@ -38,6 +38,8 @@ body {
 
 .logo {
     font-size: 25px;
+    color: #000;
+    text-decoration: none;
 }
 
 /* Nav */
@@ -210,6 +212,14 @@ body {
     font-weight: 500;
     color: #5B5B5B;
     margin-bottom: 32px;
+}
+
+.blue__text {
+    color: #232ED1;
+    font-weight: 500;
+    font-size: 14px;
+
+    margin: 25px 0 8px 0;
 }
 
 /* Img */
@@ -446,6 +456,10 @@ body {
 
 .footer__links {
     margin-right: 300px;
+}
+
+.footer__href {
+    text-decoration: none;
 }
 
 .footer__col {

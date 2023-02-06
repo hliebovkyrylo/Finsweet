@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finsweet-Product</title>
-    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/pages/product.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/ab45c944dc.js" crossorigin="anonymous"></script>
 </head>
@@ -15,18 +15,20 @@
         <div class="container">
             <div class="header__inner">
 
-                <div class="logo">{Finsweet</div>
+                <div class="logo">
+                    <a class="logo" href="../index.html">{Finsweet</a>
+                </div>
 
                 <div class="nav">
                     <a href="../index.html" class="nav__link">Home</a>
                     <a href="../pages/product.html" class="nav__link">Product</a>
                     <a href="../pages/pricing.html" class="nav__link">Pricing</a>
                     <a href="../pages/about-us.html" class="nav__link">About Us</a>
-                    <a href="#" class="nav__link">Contact</a>
-                    <a href="#" class="nav__link">Blog</a>
+                    <a href="../pages/contact.html" class="nav__link">Contact</a>
+                    <a href="../pages/blog.html" class="nav__link">Blog</a>
                 </div>
 
-                <a href="#" class="nav__last">Clone Project</a>
+                <a href="./pricing.html" class="nav__last">Clone Project</a>
 
             </div>
         </div>
@@ -95,25 +97,25 @@
                     </div>
 
                     <div class="section__text">
-                        <a href="#" class="section__question">Features</a>
+                        <a href="./pricing.html" class="section__question">Features</a>
 
                         <div class="section__title">Work from Anywhere</div>
 
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="#" class="features__btn">Learn More...</a>
+                        <a href="./blog.html" class="features__btn">Learn More...</a>
                     </div>
                 </div>
 
                 <div class="features__item">
                     <div class="section__text second">
-                        <a href="#" class="section__question">Features</a>
+                        <a href="./pricing.html" class="section__question">Features</a>
 
                         <div class="section__title">Chat live with the Support Team</div>
 
                         <div class="section__description">Lobilia curae ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="#" class="features__btn">Learn More...</a>
+                        <a href="./blog.html" class="features__btn">Learn More...</a>
                     </div>
 
                     <div class="section__img">
@@ -127,25 +129,25 @@
                     </div>
 
                     <div class="section__text">
-                        <a href="#" class="section__question">Features</a>
+                        <a href="./pricing.html" class="section__question">Features</a>
 
                         <div class="section__title">Analytics at your fingertips</div>
 
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="#" class="features__btn">Learn More...</a>
+                        <a href="./blog.html" class="features__btn">Learn More...</a>
                     </div>
                 </div>
 
                 <div class="features__item">
                     <div class="section__text second">
-                        <a href="#" class="section__question">Features</a>
+                        <a href="./pricing.html" class="section__question">Features</a>
 
                         <div class="section__title">Stay connected with customers</div>
 
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="#" class="features__btn">Learn More...</a>
+                        <a href="./blog.html" class="features__btn">Learn More...</a>
                     </div>
 
                     <div class="section__img">
@@ -159,13 +161,13 @@
                     </div>
 
                     <div class="section__text">
-                        <a href="#" class="section__question">Features</a>
+                        <a href="./pricing.html" class="section__question">Features</a>
 
                         <div class="section__title">Stay up to date with live alerts</div>
 
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="#" class="features__btn">Learn More...</a>
+                        <a href="./blog.html" class="features__btn">Learn More...</a>
                     </div>
                 </div>
             </div>
@@ -198,7 +200,7 @@
 
                 <div class="group__item">
                     <div class="btn__pricing">
-                        <a href="#" class="group__btn">View Pricing</a>
+                        <a href="../pages/pricing.html" class="group__btn">View Pricing</a>
                     </div>
                 </div>
             </div>
@@ -206,25 +208,33 @@
             <div class="footer">
                 <div class="footer__main">
                     <div class="footer__links">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
+                        <a class="footer__href" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a class="footer__href" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a class="footer__href" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
                     </div>
 
                     <div class="footer__col">
                         <div class="footer__title">Company</div>
                         <div class="footer__content">
-                            <a href="#" class="footer__text">Product</a>
-                            <a href="#" class="footer__text">Pricing</a>
-                            <a href="#" class="footer__text">About Us </a>
+                            <a href="./product.html" class="footer__text">Product</a>
+                            <a href="./pricing.html" class="footer__text">Pricing</a>
+                            <a href="./about-us.html" class="footer__text">About Us </a>
                         </div>
                     </div>
 
                     <div class="footer__col">
                         <div class="footer__title">Legal</div>
                         <div class="footer__content">
-                            <a href="#" class="footer__text">Privacy Policy</a>
-                            <a href="#" class="footer__text">404</a>
+                            <a href="../pages/privacy-policy.html" class="footer__text">Privacy Policy</a>
+                            <a href="./404.html" class="footer__text">404</a>
                             <a href="#" class="footer__text">Protected</a>
                         </div>
                     </div>
@@ -232,7 +242,7 @@
                     <div class="footer__col">
                         <div class="footer__title">Reach Us</div>
                         <div class="footer__content">
-                            <a href="#" class="footer__text">Contact Us</a>
+                            <a href="./contact.html" class="footer__text">Contact Us</a>
                             <div class="footer__text">fs@finsweet.com</div>
                             <div class="footer__text">+1808 08 08</div>
                         </div>

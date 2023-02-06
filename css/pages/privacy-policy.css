@@ -1,0 +1,43 @@
+@import url(../style.css);
+
+/* intro */
+
+.intro__policy {
+    margin-top: 150px;
+}
+
+.privacy-policy {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.title--first {
+    font-size: 44px;
+}
+
+.title--second {
+    font-size: 30px;
+}
+
+.title--third {
+    font-size: 26px;
+}
+
+.title--fourth {
+    font-size: 20px;
+}
+
+.policy__text {
+    margin-top: 24px;
+    color: #5B5B5B;
+    font-size: 16px;
+}
+
+.policy__text:last-child {
+    margin-bottom: 124px;
+}

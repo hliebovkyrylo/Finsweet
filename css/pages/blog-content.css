@@ -1,0 +1,40 @@
+@import url(../style.css);
+@import url(./blog.css);
+
+/* intro */
+
+.intro__img {
+    border-radius: 10px;
+}
+
+/* blog-content */
+
+.blog-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content__text {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+
+.content__text:first-child {
+    margin-top: 128px;
+}
+
+.content__text:last-child {
+    margin-bottom: 128px;
+}
+
+.content__text--bold {
+    color: #000;
+    font-weight: 600;
+    margin: 40px 0 40px 0;
+}
+
+.content__text--small {
+    font-size: 15px;
+}
