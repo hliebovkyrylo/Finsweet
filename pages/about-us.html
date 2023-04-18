@@ -6,30 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About-us</title>
     <link rel="stylesheet" href="../css/pages/about-us.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab45c944dc.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
     <!-- header -->
     <header class="header">
         <div class="container">
             <div class="header__inner">
-
                 <div class="logo">
                     <a class="logo" href="../index.html">{Finsweet</a>
                 </div>
 
-                <div class="nav">
-                    <a href="../index.html" class="nav__link">Home</a>
-                    <a href="../pages/product.html" class="nav__link">Product</a>
-                    <a href="../pages/pricing.html" class="nav__link">Pricing</a>
-                    <a href="../pages/about-us.html" class="nav__link">About Us</a>
-                    <a href="../pages/contact.html" class="nav__link">Contact</a>
-                    <a href="../pages/blog.html" class="nav__link">Blog</a>
+                <div class="navForPc">
+                    <div class="nav">
+                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="./product.html" class="nav__link">Product</a>
+                        <a href="./pricing.html" class="nav__link">Pricing</a>
+                        <a href="./about-us.html" class="nav__link">About</a>
+                        <a href="./contact.html" class="nav__link">Contact</a>
+                        <a href="./blog.html" class="nav__link">Blog</a>
+                    </div>
+
+                    <a href="./pricing.html" class="nav__last">Clone Project</a>
                 </div>
 
-                <a href="./pricing.html" class="nav__last">Clone Project</a>
-
+                <div class="menu">
+                    <div class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="toggleItems">
+                        <div class="items">
+                            <a href="../index.html" class="nav__link inNavToggle">Home</a>
+                        </div>
+                        <div class="items">
+                            <a href="./product.html" class="nav__link inNavToggle">Product</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pricing.html" class="nav__link inNavToggle">Pricing</a>
+                        </div>
+                        <div class="items">
+                            <a href="./about-us.html" class="nav__link inNavToggle">About Us</a>
+                        </div>
+                        <div class="items">
+                            <a href="./contact.html" class="nav__link inNavToggle">Contact</a>
+                        </div>
+                        <div class="items">
+                            <a href="./blog.html" class="nav__link inNavToggle">Blog</a>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -86,7 +114,9 @@
 
                 <div class="team__photos">
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/1.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/1.png" alt="">
+                        </div>
                         <div class="blue__text">CEO</div>
                         <div class="team__name">Drogo Blake</div>
                         <div class="team__socials">
@@ -105,7 +135,9 @@
                     </div>
 
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/2.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/2.png" alt="">
+                        </div>
                         <div class="blue__text">Co - Founder</div>
                         <div class="team__name">Taylor Rose</div>
                         <div class="team__socials">
@@ -124,7 +156,9 @@
                     </div>
 
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/3.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/3.png" alt="">
+                        </div>
                         <div class="blue__text">Head of Marketing</div>
                         <div class="team__name">Page Ortega</div>
                         <div class="team__socials">
@@ -143,7 +177,9 @@
                     </div>
 
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/4.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/4.png" alt="">
+                        </div>
                         <div class="blue__text">Head of Design</div>
                         <div class="team__name">Aubrey Harris</div>
                         <div class="team__socials">
@@ -162,7 +198,9 @@
                     </div>
 
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/5.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/5.png" alt="">
+                        </div>
                         <div class="blue__text">Marketer</div>
                         <div class="team__name">Isabella Bradley</div>
                         <div class="team__socials">
@@ -181,7 +219,9 @@
                     </div>
 
                     <div class="team__item">
-                        <img class="team__img" src="../images/team/6.png" alt="">
+                        <div class="imageBorder">
+                            <img class="team__img" src="../images/team/6.png" alt="">
+                        </div>
                         <div class="blue__text">Sales Manager</div>
                         <div class="team__name">Basil Rice</div>
                         <div class="team__socials">
@@ -214,7 +254,7 @@
 
                 <div class="group__item">
                     <div class="btn__pricing">
-                        <a href="../pages/pricing.html" class="group__btn">View Pricing</a>
+                        <a href="../pricing.html" class="group__btn">View Pricing</a>
                     </div>
                 </div>
             </div>
@@ -247,7 +287,7 @@
                     <div class="footer__col">
                         <div class="footer__title">Legal</div>
                         <div class="footer__content">
-                            <a href="../pages/privacy-policy.html" class="footer__text">Privacy Policy</a>
+                            <a href="../privacy-policy.html" class="footer__text">Privacy Policy</a>
                             <a href="./404.html" class="footer__text">404</a>
                             <a href="#" class="footer__text">Protected</a>
                         </div>
@@ -275,5 +315,8 @@
         </div>
     </footer>
     <!-- /footer -->
+
+    <!-- ====== JS ====== -->
+    <script src="../js/main.js"></script>
 </body>
 </html>
