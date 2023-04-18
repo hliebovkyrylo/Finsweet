@@ -1,0 +1,119 @@
+.footer__color {
+    background: linear-gradient(180deg, rgba(234, 234, 255, 0.2) 0%, rgba(173, 160, 247, 0.2) 100%);
+}
+
+.group {
+    background-color: #232ED1;
+    border-radius: 0 10px 0 10px;
+    padding: 100px 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group__item {
+    color: #fff;
+}
+
+.group__text {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 460px;
+}
+
+.group__btn {
+    background-color: #F24C27;
+    text-decoration: none;
+    border-radius: 5px;
+
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 15px 50px;
+}
+
+.btn__pricing {
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 142px;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links {
+    margin-right: 300px;
+}
+
+.footer__href {
+    text-decoration: none;
+}
+
+.footer__col {
+    max-width: 90px;
+}
+
+.fa-brands {
+    padding-right: 15px;
+    color: #5B5B5B;
+}
+
+.footer__title {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer__text {
+    color: #5B5B5B;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer__subscribe {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer__loc {
+    padding-top: 17px;
+}
+
+.subscribe {
+    width: 100%;
+    max-width: 840px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribe__input {
+    width: 50%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    color: #333;
+    padding: 10px 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+
+.subscribe__input:focus {
+    outline: 0;
+    border-color: #F24C27;
+}
+
+.subscribe__btn {
+    width: 30%;
+    border: none;
+    color: #fff;
+    background-color: #F24C27;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}

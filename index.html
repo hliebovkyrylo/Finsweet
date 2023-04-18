@@ -6,31 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finsweet</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab45c944dc.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
 
     <!-- header -->
     <header class="header">
         <div class="container">
             <div class="header__inner">
-
                 <div class="logo">
                     <a class="logo" href="./index.html">{Finsweet</a>
                 </div>
 
-                <div class="nav">
-                    <a href="./index.html" class="nav__link">Home</a>
-                    <a href="./pages/product.html" class="nav__link">Product</a>
-                    <a href="./pages/pricing.html" class="nav__link">Pricing</a>
-                    <a href="./pages/about-us.html" class="nav__link">About Us</a>
-                    <a href="./pages/contact.html" class="nav__link">Contact</a>
-                    <a href="./pages/blog.html" class="nav__link">Blog</a>
+                <div class="navForPc">
+                    <div class="nav">
+                        <a href="./index.html" class="nav__link">Home</a>
+                        <a href="./pages/product.html" class="nav__link">Product</a>
+                        <a href="./pages/pricing.html" class="nav__link">Pricing</a>
+                        <a href="./pages/about-us.html" class="nav__link">About</a>
+                        <a href="./pages/contact.html" class="nav__link">Contact</a>
+                        <a href="./pages/blog.html" class="nav__link">Blog</a>
+                    </div>
+
+                    <a href="./pages/pricing.html" class="nav__last">Clone Project</a>
                 </div>
 
-                <a href="../assets/pages/pricing.html" class="nav__last">Clone Project</a>
-
+                <div class="menu">
+                    <div class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="toggleItems">
+                        <div class="items">
+                            <a href="./index.html" class="nav__link inNavToggle">Home</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pages/product.html" class="nav__link inNavToggle">Product</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pages/pricing.html" class="nav__link inNavToggle">Pricing</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pages/about-us.html" class="nav__link inNavToggle">About Us</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pages/contact.html" class="nav__link inNavToggle">Contact</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pages/blog.html" class="nav__link inNavToggle">Blog</a>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -70,23 +98,23 @@
 
             <div class="logos__inner">
                 <div class="logos__item">
-                    <img src="./images/logos/1.png" alt="">
+                    <img class="logos_img" src="./images/logos/1.png" alt="">
                 </div>
 
                 <div class="logos__item">
-                    <img src="./images/logos/2.png" alt="">
+                    <img class="logos_img" src="./images/logos/2.png" alt="">
                 </div>
 
                 <div class="logos__item">
-                    <img src="./images/logos/3.png" alt="">
+                    <img class="logos_img" src="./images/logos/3.png" alt="">
                 </div>
 
                 <div class="logos__item">
-                    <img src="./images/logos/4.png" alt="">
+                    <img class="logos_img" src="./images/logos/4.png" alt="">
                 </div>
 
                 <div class="logos__item">
-                    <img src="./images/logos/5.png" alt="">
+                    <img class="logos_img" src="./images/logos/5.png" alt="">
                 </div>
             </div>
         </div>
@@ -107,7 +135,22 @@
                 </div>
 
                 <div class="section__img">
-                    <img src=".images/why/Why.png" alt="">
+                    <div class="section_items">
+                        <div class="img">
+                            <img class="why_img" src="./images/why/WhyBox1.jpg" alt="">
+                        </div>
+                        <div class="img">
+                            <img class="why_img" src="./images/why/WhyBox3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="section_items">
+                        <div class="img">
+                            <img class="why_img" src="./images/why/WhyBox2.jpg" alt="">
+                        </div>
+                        <div class="img">
+                            <img class="why_img" src="./images/why/WhyBox4.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -116,10 +159,9 @@
     <!-- /why -->
 
     <!-- img -->
-    <section class="section">
+    <section class="sectionImg">
 
         <div class="img__section">
-            <img class="img__item img__item--bc" src="./images/img-section/Background.jpg" alt="">
             <div class="img__item img__item--text">
                 <div class="img__title img__title--title">Keeps Your Team Happy</div>
                 <div class="img__title img__title--text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu. Vestibulum ante ipsum primis in.</div>
@@ -130,7 +172,7 @@
     <!-- /img -->
 
     <!-- features -->
-    <section class="section">
+    <section class="sectionFeatures">
         <div class="container">
             
             <div class="features">
@@ -141,13 +183,15 @@
                     </div>
 
                     <div class="section__text">
-                        <a href="./pages/pricing.html" class="section__question">Features</a>
+                        <div class="section__question">Features</div>
     
                         <div class="section__title">Analytics at your fingertips</div>
     
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="./pages/about-us.html" class="features__btn">Learn More...</a>
+                        <a href="./pages/about-us.html" class="features__btn">
+                            <div class="features_button">Learn More</div>
+                            <img src="./images/icons/arrow.svg" alt=""></a>
                     </div>
 
                 </div>
@@ -155,13 +199,15 @@
                 <div class="features__item">
 
                     <div class="section__text second">
-                        <a href="./pages/pricing.html" class="section__question">Features</a>
+                        <div href="./pages/pricing.html" class="section__question">Features</div>
     
                         <div class="section__title">Stay connected with your customers </div>
     
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="./pages/about-us.html" class="features__btn">Learn More...</a>
+                        <a href="./pages/about-us.html" class="features__btn">
+                            <div class="features_button">Learn More</div> 
+                            <img src="./images/icons/arrow.svg" alt=""></a>
                     </div>
 
                     <div class="section__img">
@@ -177,13 +223,15 @@
                     </div>
 
                     <div class="section__text">
-                        <a href="./pages/pricing.html" class="section__question">Features</a>
+                        <div href="./pages/pricing.html" class="section__question">Features</div>
     
                         <div class="section__title">Stay up to date with live alerts</div>
     
                         <div class="section__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</div>
 
-                        <a href="./pages/about-us.html" class="features__btn">Learn More...</a>
+                        <a href="./pages/about-us.html" class="features__btn">
+                            <div class="features_button">Learn More</div>
+                            <img class="arrow" src="./images/icons/arrow.svg" alt="..."></a>
                     </div>
 
                 </div>
@@ -311,10 +359,8 @@
                     <div class="group__text">Get started with Finsweet today</div>
                 </div>
 
-                <div class="group__item">
-                    <div class="btn__pricing">
-                        <a href="../pages/pricing.html" class="group__btn">View Pricing</a>
-                    </div>
+                <div class="btn__pricing">
+                    <a href="../pages/pricing.html" class="group__btn">View Pricing</a>
                 </div>
             </div>
 
@@ -337,17 +383,17 @@
                     <div class="footer__col">
                         <div class="footer__title">Company</div>
                         <div class="footer__content">
-                            <a href="./product.html" class="footer__text">Product</a>
-                            <a href="./pricing.html" class="footer__text">Pricing</a>
-                            <a href="./about-us.html" class="footer__text">About Us </a>
+                            <a href="./pages/product.html" class="footer__text">Product</a>
+                            <a href="./pages/pricing.html" class="footer__text">Pricing</a>
+                            <a href="./pages/about-us.html" class="footer__text">About Us </a>
                         </div>
                     </div>
 
                     <div class="footer__col">
                         <div class="footer__title">Legal</div>
                         <div class="footer__content">
-                            <a href="../pages/privacy-policy.html" class="footer__text">Privacy Policy</a>
-                            <a href="./404.html" class="footer__text">404</a>
+                            <a href="./pages/privacy-policy.html" class="footer__text">Privacy Policy</a>
+                            <a href="./pages/404.html" class="footer__text">404</a>
                             <a href="#" class="footer__text">Protected</a>
                         </div>
                     </div>
@@ -355,7 +401,7 @@
                     <div class="footer__col">
                         <div class="footer__title">Reach Us</div>
                         <div class="footer__content">
-                            <a href="./contact.html" class="footer__text">Contact Us</a>
+                            <a href="./pages/contact.html" class="footer__text">Contact Us</a>
                             <div class="footer__text">fs@finsweet.com</div>
                             <div class="footer__text">+1808 08 08</div>
                         </div>
