@@ -135,3 +135,39 @@
 .faq {
     margin-top: 450px;
 }
+
+@media (max-width: 1280px) {
+    .pricing__item {
+        max-width: 300px;
+    }
+
+    .pricing__btn {
+        padding: 10px 12px;
+        margin: 0 0 0 25px;
+    }
+}
+
+@media (max-width: 990px) {
+    .pricing {
+        display: block;
+    }
+
+    .pricing__item {
+        margin: 0 auto;
+    }
+
+    .section.faq {
+        margin-top: 1500px;
+    }
+
+    .pricing__btn {
+        margin-bottom: 40px;
+        border: 1px solid #6269c9bb;
+    }
+}
+
+@media (max-width: 300px) {
+    .pricing__btn {
+        margin: 0;
+    }
+}
