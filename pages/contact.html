@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../css/pages/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab45c944dc.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
     <!-- icon -->
     <svg display="none">
         <symbol id="logo-contact" viewBox="0 0 72 40">
@@ -22,22 +23,50 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-
                 <div class="logo">
                     <a class="logo" href="../index.html">{Finsweet</a>
                 </div>
 
-                <div class="nav">
-                    <a href="../index.html" class="nav__link">Home</a>
-                    <a href="../pages/product.html" class="nav__link">Product</a>
-                    <a href="../pages/pricing.html" class="nav__link">Pricing</a>
-                    <a href="../pages/about-us.html" class="nav__link">About Us</a>
-                    <a href="../pages/contact.html" class="nav__link">Contact</a>
-                    <a href="../pages/blog.html" class="nav__link">Blog</a>
+                <div class="navForPc">
+                    <div class="nav">
+                        <a href="./index.html" class="nav__link">Home</a>
+                        <a href="../pages/product.html" class="nav__link">Product</a>
+                        <a href="../pages/pricing.html" class="nav__link">Pricing</a>
+                        <a href="../pages/about-us.html" class="nav__link">About</a>
+                        <a href="../pages/contact.html" class="nav__link">Contact</a>
+                        <a href="../pages/blog.html" class="nav__link">Blog</a>
+                    </div>
+
+                    <a href="./pages/pricing.html" class="nav__last">Clone Project</a>
                 </div>
 
-                <a href="./pricing.html" class="nav__last">Clone Project</a>
-
+                <div class="menu">
+                    <div class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="toggleItems">
+                        <div class="items">
+                            <a href="../index.html" class="nav__link inNavToggle">Home</a>
+                        </div>
+                        <div class="items">
+                            <a href="../pages/product.html" class="nav__link inNavToggle">Product</a>
+                        </div>
+                        <div class="items">
+                            <a href="../pages/pricing.html" class="nav__link inNavToggle">Pricing</a>
+                        </div>
+                        <div class="items">
+                            <a href="../pages/about-us.html" class="nav__link inNavToggle">About Us</a>
+                        </div>
+                        <div class="items">
+                            <a href="../pages/contact.html" class="nav__link inNavToggle">Contact</a>
+                        </div>
+                        <div class="items">
+                            <a href="../pages/blog.html" class="nav__link inNavToggle">Blog</a>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -61,11 +90,14 @@
                 <div class="intro__obj">
                     <div class="form__title">We will get back to you as soon as possible.</div>
                     <form class="form-contact" action="#">
-                        <input class="input input--name" type="text" placeholder="Full name">
-                        <input class="input input--surname" type="text" placeholder="Surname">
-                        <input class="input input--email" type="email" placeholder="Work Email">
-                        <input class="input input--subject" type="subject" placeholder="Subject">
-                        <input class="input input--message" type="text" placeholder="Message">
+                        <div class="form_group">
+                            <input class="input" type="text" placeholder="Full name">
+                            <input class="input" type="text" placeholder="Surname">
+                        </div>
+                        <div class="form_group second_group">
+                            <input class="input" type="email" placeholder="Work Email">
+                            <textarea class="inputText" id="" placeholder="Message"></textarea>
+                        </div>
                         <button class="input__btn" type="submit">Submit</button>
                     </form>
                 </div>
@@ -147,5 +179,7 @@
     </footer>
     <!-- /footer -->
 
+    <!-- ====== JS ====== -->
+    <script src="../js/main.js"></script>
 </body>
 </html>

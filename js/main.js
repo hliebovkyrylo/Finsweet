@@ -1,5 +1,4 @@
 ////// accordion button //////
-
 let acd = document.getElementsByClassName('faq__item'); 
 let i;
 
@@ -17,7 +16,7 @@ window.onbeforeunload = () => {
     }
 
     if(document.getElementsByTagName("html"[0].getAttribute("data-status-code") === "404")) {
-        window.location.href = "/pages/404.html"
+        window.location.href = {notFound};
     }
 };
 
