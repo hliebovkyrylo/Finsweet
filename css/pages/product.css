@@ -36,6 +36,9 @@
 .happy {
     position: relative;
     margin-bottom: 204px;
+    background: url(../../images/img-section/background-product.jpg) center no-repeat;
+    background-size: cover;
+    height: 792px;
 }
 
 .happy__img {
@@ -65,4 +68,33 @@
 .happy__text {
     font-size: 15px;
     padding-top: 16px;
+}
+
+@media (max-width: 1280px) {
+    .three__text {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 990px) {
+    .three {
+        display: block;
+        text-align: center;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .section__text.second {
+        margin-left: 55px;
+    }
+
+    .section__text.second {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .section__text.second {
+        margin-left: 0;
+    }
 }

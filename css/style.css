@@ -273,7 +273,6 @@ body {
 
 .features__btn {
     display: flex;
-    align-items: center;
     text-decoration: none;
     width: 123px;
 }
