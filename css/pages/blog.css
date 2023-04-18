@@ -48,3 +48,27 @@
     color: #5B5B5B;
     margin: 14px 0 20px 0;
 }
+
+@media (max-width: 1280px) {
+    .featured__img,
+    .featured__item {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 990px) {
+    .featured__item {
+        margin: 60px auto;
+    }
+
+    .featured__posts {
+        display: block;
+    }
+}
+
+@media (max-width: 300px) {
+    .featured__img,
+    .featured__item {
+        max-width: 250px;
+    }
+}

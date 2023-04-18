@@ -38,3 +38,18 @@
 .content__text--small {
     font-size: 15px;
 }
+
+@media (max-width: 340px) {
+    .intro__title,
+    .intro__text {
+        max-width: 260px;
+    }
+
+    .intro__title {
+        font-size: 30px;
+    }
+
+    .intro__inner {
+        margin-top: 0;
+    }
+}

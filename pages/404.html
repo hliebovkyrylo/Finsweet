@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <title>404</title>
     <link rel="stylesheet" href="../css/pages/404.css">
 </head>
-<body>
+<body class="body">
 
     <!-- icon -->
     <svg display="none">
@@ -22,22 +23,50 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-
                 <div class="logo">
                     <a class="logo" href="../index.html">{Finsweet</a>
                 </div>
 
-                <div class="nav">
-                    <a href="../index.html" class="nav__link">Home</a>
-                    <a href="../pages/product.html" class="nav__link">Product</a>
-                    <a href="../pages/pricing.html" class="nav__link">Pricing</a>
-                    <a href="../pages/about-us.html" class="nav__link">About Us</a>
-                    <a href="../pages/contact.html" class="nav__link">Contact</a>
-                    <a href="../pages/blog.html" class="nav__link">Blog</a>
+                <div class="navForPc">
+                    <div class="nav">
+                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="./product.html" class="nav__link">Product</a>
+                        <a href="./pricing.html" class="nav__link">Pricing</a>
+                        <a href="./about-us.html" class="nav__link">About</a>
+                        <a href="./contact.html" class="nav__link">Contact</a>
+                        <a href="./blog.html" class="nav__link">Blog</a>
+                    </div>
+
+                    <a href="./pricing.html" class="nav__last">Clone Project</a>
                 </div>
 
-                <a href="./pricing.html" class="nav__last">Clone Project</a>
-
+                <div class="menu">
+                    <div class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="toggleItems">
+                        <div class="items">
+                            <a href="../index.html" class="nav__link inNavToggle">Home</a>
+                        </div>
+                        <div class="items">
+                            <a href="./product.html" class="nav__link inNavToggle">Product</a>
+                        </div>
+                        <div class="items">
+                            <a href="./pricing.html" class="nav__link inNavToggle">Pricing</a>
+                        </div>
+                        <div class="items">
+                            <a href="./about-us.html" class="nav__link inNavToggle">About Us</a>
+                        </div>
+                        <div class="items">
+                            <a href="./contact.html" class="nav__link inNavToggle">Contact</a>
+                        </div>
+                        <div class="items">
+                            <a href="./blog.html" class="nav__link inNavToggle">Blog</a>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -57,14 +86,17 @@
 
                 <div class="page__text">The page you are looking for doesn't exist or has been moved</div>
 
-                <div class="btn__pricing">
-                    <a href="../index.html" class="group__btn">Back to Home</a>
+                <div class="btn__pricing buttonBack">
+                    <a href="../index.html" class="group__btn ">Back to Home</a>
                 </div>
 
             </div>
         </div>
     </div>
     <!-- /intro -->
+
+    <!-- ====== JS ====== -->
+    <script src="../js/main.js"></script>
 
 </body>
 </html>
