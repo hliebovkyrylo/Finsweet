@@ -97,4 +97,8 @@
     .section__text.second {
         margin-left: 0;
     }
+
+    .happy__red {
+        padding: 41px 60px 31px 28px;
+    }
 }

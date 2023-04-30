@@ -131,7 +131,8 @@ body {
 }
 
 .section__text {
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
     margin-top: 150px;
 }
 
@@ -398,7 +399,7 @@ body {
 
 /* adaptive layout */
 
-@media (max-width: 1280px) {
+@media (max-width: 1512px) {
     .container {
         max-width: 1100px;
     }
@@ -432,7 +433,7 @@ body {
     }
 }
 
-@media (max-width:990px) {
+@media (max-width: 1180px) {
     .container {
         max-width: 800px;
     }
@@ -501,29 +502,9 @@ body {
     .testimonials__item {
         margin: 30px auto;
     }
-
-    /* footer */
-
-    .group {
-        padding: 40px 10px;
-        align-items: center;
-    }
-
-    .group__text {
-        font-size: 30px;
-    }
-
-    .btn__pricing {
-        margin-top: 0;
-    }
-
-    .group__btn {
-        padding: 10px 20px;
-        max-width: 125px;
-    }
 }
 
-@media (max-width: 661px) {
+@media (max-width: 671px) {
     .group {
         display: block;
     }
@@ -549,36 +530,9 @@ body {
     .img__bc {
         max-width: 500px;
     }
-
-    .footer__main {
-        display: block;
-        text-align: center;
-    }
-
-    .footer__links {
-        margin: 0 auto;
-    }
-
-    .footer__title {
-        margin: 24px 0 5px 0;
-    }
-
-    .footer__col {
-        margin: 0 auto;
-    }
-
-    .footer__subscribe {
-        display: block;
-        text-align: center;
-    }
-
-    .subscribe {
-        justify-content: center;
-        margin-top: 20px;
-    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .intro__title,
     .intro__text {
         width: 330px;
@@ -659,20 +613,14 @@ body {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 345px) {
     .intro__title,
     .intro__text {
-        width: 260px;
+        max-width: 260px;
     }
 
     .logos_img {
         margin-left: -40px;
-    }
-
-    .section__title,
-    .section__question,
-    .section__description {
-        width: 200px;
     }
 
     .why_img,
@@ -681,21 +629,13 @@ body {
         width: 200px;
     }
 
-    .section__text {
-        margin-left: -10px;
-    }
-
-    .section__text.second {
-        width: 230px;
-        margin-left: -10px;
+    .section__description,
+    .section__title {
+        max-width: 170px;
+        margin: 10px auto;
     }
 
     .t__img {
         height: 18%;
-    }
-
-    .features__btn:first-child,
-    .features__btn:last-child {
-        margin-left: -1px;
     }
 }

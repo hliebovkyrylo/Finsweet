@@ -147,13 +147,13 @@
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1175px) {
     .pricing {
         display: block;
     }
 
     .pricing__item {
-        margin: 0 auto;
+        margin: -20px auto;
     }
 
     .section.faq {

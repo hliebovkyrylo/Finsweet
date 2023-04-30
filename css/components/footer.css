@@ -117,3 +117,52 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width: 1180px) {
+    .group {
+        padding: 40px 10px;
+        align-items: center;
+    }
+
+    .group__text {
+        font-size: 30px;
+    }
+
+    .btn__pricing {
+        margin-top: 0;
+    }
+
+    .group__btn {
+        padding: 10px 20px;
+        max-width: 125px;
+    }
+}
+
+@media (max-width: 820px) {
+    .footer__main {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__links {
+        margin: 0 auto;
+    }
+
+    .footer__title {
+        margin: 24px 0 5px 0;
+    }
+
+    .footer__col {
+        margin: 0 auto;
+    }
+
+    .footer__subscribe {
+        display: block;
+        text-align: center;
+    }
+
+    .subscribe {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
